@@ -6,9 +6,10 @@ import TodoItem from "./components/todoItem";
 import AddTodo from "./components/addTodo";
 export default function App() {
   const [todos , setTodos] = useState([
-    {text: 'buy coffe',key:'1'},
+    {text: 'TO coffe',key:'1'},
     {text: 'create an app',key:'2'},
-    {text: 'play on the switch',key:'3'},
+    {text: 'play GOD OF War',key:'3'},
+    {text: 'go to esprims',key:'3'},
   ]);
   const  pressHandler = (key)=> {
     setTodos((prevTodos) => {
